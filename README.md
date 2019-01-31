@@ -9,6 +9,9 @@ This tool is designed to target a unbranded set of HDMI extenders that use IP. Y
 
 ```
 Usage of de-ip-hdmi:
+  go run main.go -option=value
+  For example:
+  go run main.go -audio=false -interface=ens23
   -audio
     	Output audio into MKV as well (default true)
   -debug
